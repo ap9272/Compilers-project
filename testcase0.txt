@@ -1,0 +1,13 @@
+_main
+	record #marks
+		type int : maths; 
+		type int: physics; 
+		type int: chemistry;
+	endrecord;
+
+	type int : d4;
+	read(d4);
+	write(d4);
+
+	return;
+end
